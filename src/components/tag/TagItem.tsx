@@ -21,7 +21,7 @@ export const TagItem = styled.div.attrs<TagItemProps>(({ isLoading, children }) 
   display: inline-block;
   background: ${background.app};
   border-radius: ${spacing.borderRadius.small}px;
-  padding: 5px 10px;
+  padding: 4px 10px 2px 10px;
   font-size: ${typography.size.s2}px;
   line-height: ${typography.size.m2}px;
   position: relative;
